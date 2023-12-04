@@ -60905,7 +60905,7 @@ return new A.tE(new A.DX(A.my(A.a([new A.F9(s),new A.mG(s),new A.AP(s),new A.mG(
 A.AI.prototype={}
 A.z7.prototype={
 U(a){var s=null
-return A.dn(s,A.k_("@ 2023 \uc774\ud6c8",s,s,s,s,s,s,s,A.d6(s,s,B.eB,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.aD,s,s),s,s,s,B.xu,s,s)}}
+return A.dn(s,A.k_("@ 2023 \uc774\ud6c8 / @Hooni_MoonAu ",s,s,s,s,s,s,s,A.d6(s,s,B.eB,s,s,s,s,s,s,s,s,10,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),B.aD,s,s),s,s,s,B.xu,s,s)}}
 A.mG.prototype={
 U(a){var s=null
 return A.dn(s,A.qU("assets/images/divider.png",s,s),s,s,s,B.xy,s,s)}}
@@ -60933,7 +60933,7 @@ U(a){var s=null,r=t.F
 return A.my(A.a([A.k_("Special Thanks",s,s,s,s,s,s,s,A.d6(s,s,B.iw,s,s,s,s,s,s,s,s,20,s,s,B.aj,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.a6u(A.a([A.er(s,30,s),A.dn(s,A.a8F(A.Nv(8),A.qU("assets/images/thanks1.jpeg",B.hG,s)),s,s,50,s,s,50),A.er(s,s,30),A.pw("Sunny",s,s)],r),B.oe,B.dz)],r))}}
 A.F9.prototype={
 U(a){var s,r,q,p,o,n=null,m=t.w,l=A.cx(a,n,m).w,k=A.cx(a,n,m).w
-k=A.dn(n,A.qU("assets/images/2.jpeg",B.v4,1/0),n,n,k.a.b*0.75,n,n,n)
+k=A.dn(n,A.qU("assets/images/watch.jpeg",B.v4,1/0),n,n,k.a.b*0.75,n,n,n)
 s=A.er(n,40,n)
 r=A.ak6(2023,12,31,0,0,0,0,!1)
 if(!A.p3(r))A.T(A.mb(r))
