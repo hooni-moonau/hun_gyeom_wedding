@@ -56,7 +56,7 @@ class Introduction extends StatelessWidget {
             AutoSizeText('2023년 12월 31일 일요일',
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                    color: const Color.fromRGBO(41, 82, 56, 100),
+                    color: const Color.fromRGBO(83, 179, 46, 100),
                     fontWeight: FontWeight.bold,
                     fontSize: 20)),
             SizedBox(height: 50),

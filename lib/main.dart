@@ -3,6 +3,7 @@ import 'package:hun_gyeom_wedding/widgets/credit.dart';
 import 'package:hun_gyeom_wedding/widgets/custom_divider.dart';
 import 'package:hun_gyeom_wedding/widgets/gallery.dart';
 import 'package:hun_gyeom_wedding/widgets/introduction.dart';
+import 'package:hun_gyeom_wedding/widgets/special_thanks.dart';
 import 'package:hun_gyeom_wedding/widgets/welcome.dart';
 
 void main() {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: '훈 & 한겸이가 결혼합니다!',
       theme: ThemeData(
+        fontFamily: 'Cafe24Supermagic-Bold-v1.0',
         scaffoldBackgroundColor: const Color(0xFFFFFFFF),
 
       ),
@@ -44,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // 1. 메인 표지
             Welcome(),
-
+            CustomDivider(),
             // 2. 소개글
             Introduction(),
 
@@ -52,10 +54,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
             // 3. 갤러리 위젯
             Gallery(),
-
             CustomDivider(),
 
-            // 4. Credit
+            // 4. Special Thanks
+            SpecialThanks(),
+            // 5. Credit
             Credit()
           ],
         ),

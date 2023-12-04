@@ -1,9 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:hun_gyeom_wedding/widgets/page_transformer.dart';
 
 import '../model/image.dart';
-import 'image_card.dart';
 
 class Gallery extends StatelessWidget {
   Widget _buildImage(BuildContext context) {
@@ -21,7 +19,7 @@ class Gallery extends StatelessWidget {
       child: Text(
         'Photo Gallery',
         style: TextStyle(
-          color: const Color.fromRGBO(41, 82, 56, 100),
+            color: const Color.fromRGBO(251, 206, 12, 100),
           fontWeight: FontWeight.bold,
           fontSize: 20,
         ),
