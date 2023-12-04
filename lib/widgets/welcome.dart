@@ -67,7 +67,7 @@ class Welcome extends StatelessWidget{
                   Container(
                     height: MediaQuery.of(context).size.height * 0.75,
                     child: Image.asset(
-                      'assets/images/2.jpeg',
+                      'assets/images/watch.jpeg',
                       fit: BoxFit.fitWidth,
                       width: double.infinity,
                     ),

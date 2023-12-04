@@ -6,7 +6,7 @@ class Credit extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.symmetric(vertical: 30),
       child: Text(
-        "@ 2023 이훈",
+        "@ 2023 이훈 / @Hooni_MoonAu ",
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 10, color: Colors.black38),
       ),
