@@ -26,9 +26,10 @@ class Welcome extends StatelessWidget{
   Widget _buildSubtitleText(BuildContext context) {
     final dday = DateTime(2023, 12, 31);
     final today = DateTime.now();
-    final difference = dday.difference(today).inDays;
-
-    var ddayText = difference > 0 ? 'D-$difference' : '';
+    final today2 = DateTime(today.year, today.month, today.day);
+    final difference = dday.difference(today2).inDays;
+    print("t $today d $difference");
+    var ddayText = difference > 0 ? 'D-$difference' : (difference == 0) ? 'D-Day' : 'D+${difference.abs()}';
 
     return Column(
       children: [
