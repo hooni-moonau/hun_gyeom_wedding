@@ -25,7 +25,7 @@ class Welcome extends StatelessWidget{
 
   Widget _buildSubtitleText(BuildContext context) {
     final dday = DateTime(2023, 12, 31);
-    final today = DateTime.now();
+    final today = DateTime.now().toUtc().add(Duration(hours: 9));
     final today2 = DateTime(today.year, today.month, today.day);
     final difference = dday.difference(today2).inDays;
     print("t $today d $difference");
